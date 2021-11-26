@@ -12,7 +12,20 @@
   padding: 85px 0px;
 }
 
-.experience p {
+.experience .container {
+  padding: 0;
+  max-width: 1211px;
+}
+
+.experience .container p {
   margin: 0;
+  font-size: 32px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.experience .container h2 {
+  font-size: 60px;
+  color: #232323;
 }
 /*# sourceMappingURL=experience.css.map */

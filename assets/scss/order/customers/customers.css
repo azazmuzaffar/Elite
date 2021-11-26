@@ -135,8 +135,9 @@
 }
 
 .verified-customers .container .row .col-lg-6 .by h5 {
-  font-size: 21px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
   color: #028013;
 }
 

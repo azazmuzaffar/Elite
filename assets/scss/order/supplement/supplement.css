@@ -1,0 +1,82 @@
+/*----------------------------------------*/
+/*  1.  Elite 90 Supplement 
+/*----------------------------------------*/
+.what-elite-909-do {
+  background-image: url(../../../images/elite-909-supplement.png);
+  height: 1052px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.what-elite-909-do .container {
+  padding: 125px 0px 100px 0px;
+  text-align: center;
+  max-width: 1211px;
+}
+
+.what-elite-909-do .container h3 {
+  font-size: 45px;
+  color: white;
+  font-weight: 600;
+}
+
+.what-elite-909-do .container .row {
+  padding: 120px 0px;
+}
+
+.what-elite-909-do .container .row .col-lg-6 {
+  color: white;
+}
+
+.what-elite-909-do .container .row .col-lg-6:first-of-type {
+  text-align: left;
+}
+
+.what-elite-909-do .container .row .col-lg-6 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.what-elite-909-do .container .row .col-lg-6 ul li {
+  font-size: 24px;
+  color: white;
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 50px;
+}
+
+.what-elite-909-do .container .row .col-lg-6 ul li::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../../images/check-sign-gold.png");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  left: 0;
+  top: -5px;
+}
+
+.what-elite-909-do .container .row .col-lg-6:last-child {
+  text-align: right;
+}
+
+.what-elite-909-do .container .row .col-lg-6:last-child ul li {
+  padding: 0px 90px 0px 0px;
+}
+
+.what-elite-909-do .container .row .col-lg-6:last-child ul li::before {
+  display: none;
+}
+
+.what-elite-909-do .container .row .col-lg-6:last-child ul li::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../../images/check-sign-gold.png");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  right: 0;
+  top: -5px;
+}
+/*# sourceMappingURL=supplement.css.map */

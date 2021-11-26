@@ -1,0 +1,103 @@
+/*----------------------------------------*/
+/*  1.  Default CSS
+/*----------------------------------------*/
+a {transition:all 0.3s ease 0s;text-decoration:none;}
+a, a:hover {
+  color: #624e03;
+  text-decoration: none;
+}
+a:active, a:hover, a:focus {
+  outline: 0 none;
+  text-decoration: none;
+}
+img {max-width:100%;}
+strong {font-weight:500;}
+.align-items-center {align-items: center;}
+.justify-center {justify-content: center;}
+.ps-unset {position: unset;}
+/*----------------------------------------*/
+/*  Heading CSS
+/*----------------------------------------*/
+h1{
+  font-size:60px;
+  line-height:1em;
+}
+h2{
+  font-size:48px;
+  line-height:1.25em;
+}
+h3{
+  font-size:30px;
+  line-height:1.4em;
+}
+h4{
+  font-size:24px;
+  line-height:1.5em;
+}
+h5{
+	font-size:18px;
+	line-height:1.666666666666667em;
+}
+h6{
+  font-size:14px;
+  line-height:1.857142857142857em;
+}
+/*----------------------------------------*/
+/*  List None CSS
+/*----------------------------------------*/
+ul.list-none {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul.inline-list li {
+	display:inline-block;
+}
+/*----------------------------------------*/
+/*  Input CSS
+/*----------------------------------------*/
+input:focus{
+  outline:none;
+}
+textarea:focus{
+  outline:none;
+}
+select:focus{
+  outline:none;
+}
+button:focus{
+  outline:none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity:1;
+  color:#9d9fa2;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity:1;
+  color:#9d9fa2;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity:1;
+  color:#9d9fa2;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  opacity:1;
+  color:#9d9fa2;
+}
+
+.text-white {color:#ffffff;}
+/*----------------------------------------*/
+/*  Text Alignment
+/*----------------------------------------*/
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+/*----------------------------------------*/
+/*  Margin CSS
+/*----------------------------------------*/
+.mt-100 {margin-top:100px;}
+.mt-70 {margin-top:70px;}
+.mt-65 {margin-top:65px;}
+.mt-60 {margin-top:60px;}
+.mt-55 {margin-top:55px;}
+
+.mb-100 {margin-bottom: 100px;}

@@ -1,0 +1,42 @@
+.best-results {
+  .container {
+    max-width: 1211px;
+    padding: 125px 20px 115px 0px;
+    .intro {
+      h3 {
+        font-size: 45px;
+        color: rgb(43, 43, 43);
+      }
+      p {
+        font-size: 24px;
+        color: rgb(67, 67, 67);
+        line-height: 1.667;
+        margin-top: 8px;
+      }
+      margin-bottom: 80px;
+    }
+    .row {
+      p {
+        font-size: 32px;
+        color: rgb(35, 35, 35);
+        font-weight: 500;
+        margin: 0;
+      }
+      ._left {
+        max-width: 375px;
+        p {
+          margin-top: 20px;
+        }
+      }
+      ._center {
+        max-width: 975px;
+      }
+      ._center,
+      ._right {
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

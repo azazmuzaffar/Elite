@@ -1,0 +1,72 @@
+/*----------------------------------------*/
+/*  1.  Elite 90 Supplement 
+/*----------------------------------------*/
+
+.what-elite-909-do {
+  background-image: url(../../../images/elite-909-supplement.png);
+  height: 1052px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  .container {
+    padding: 125px 0px 100px 0px;
+    text-align: center;
+    max-width: 1211px;
+    h3 {
+      font-size: 45px;
+      color: white;
+      font-weight: 600;
+    }
+    .row {
+      padding: 120px 0px;
+      .col-lg-6 {
+        color: white;
+        &:first-of-type {
+          text-align: left;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          li {
+            font-size: 24px;
+            color: white;
+            position: relative;
+            padding-left: 80px;
+            margin-bottom: 50px;
+            &::before {
+              content: "";
+              position: absolute;
+              background-image: url("../../../images/check-sign-gold.png");
+              background-repeat: no-repeat;
+              width: 64px;
+              height: 64px;
+              left: 0;
+              top: -5px;
+            }
+          }
+        }
+        &:last-child {
+          text-align: right;
+          ul {
+            li {
+              padding: 0px 90px 0px 0px;
+              &::before {
+                display: none;
+              }
+              &::after {
+                content: "";
+                position: absolute;
+                background-image: url("../../../images/check-sign-gold.png");
+                background-repeat: no-repeat;
+                width: 64px;
+                height: 64px;
+                right: 0;
+                top: -5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

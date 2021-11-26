@@ -1,0 +1,45 @@
+.best-results .container {
+  max-width: 1211px;
+  padding: 125px 20px 115px 0px;
+}
+
+.best-results .container .intro {
+  margin-bottom: 80px;
+}
+
+.best-results .container .intro h3 {
+  font-size: 45px;
+  color: #2b2b2b;
+}
+
+.best-results .container .intro p {
+  font-size: 24px;
+  color: #434343;
+  line-height: 1.667;
+  margin-top: 8px;
+}
+
+.best-results .container .row p {
+  font-size: 32px;
+  color: #232323;
+  font-weight: 500;
+  margin: 0;
+}
+
+.best-results .container .row ._left {
+  max-width: 375px;
+}
+
+.best-results .container .row ._left p {
+  margin-top: 20px;
+}
+
+.best-results .container .row ._center {
+  max-width: 975px;
+}
+
+.best-results .container .row ._center p,
+.best-results .container .row ._right p {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=results.css.map */

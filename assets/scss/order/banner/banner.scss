@@ -1,0 +1,47 @@
+/*----------------------------------------*/
+/*  1.  Banner 
+/*----------------------------------------*/
+
+.order-elite {
+  background-image: url(../../../images/order-banner-bg.png);
+  padding: 137px 0px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  .container {
+    max-width: 1211px;
+    padding: 0;
+    .row {
+      .elite-909-satisfaction {
+        margin-bottom: 60px;
+        h1 {
+          font-size: 60px;
+          color: rgb(12, 12, 12);
+          font-style: italic;
+          padding: 0;
+          margin: 0;
+        }
+        h4 {
+          font-size: 32px;
+          color: rgb(66, 66, 66);
+          line-height: 1.2;
+        }
+      }
+      .elite-909-experience {
+        h3 {
+          font-size: 37.333px;
+          color: rgb(8, 8, 8);
+          font-weight: 500;
+          line-height: 1.2;
+          span {
+            text-transform: uppercase;
+            font-weight: 700;
+            &:first-of-type {
+              color: rgb(8, 8, 8);
+            }
+          }
+        }
+      }
+    }
+  }
+}

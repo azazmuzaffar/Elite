@@ -1,0 +1,26 @@
+/*----------------------------------------*/
+/*  1.  Header 
+/*----------------------------------------*/
+.header-area {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
+  background-size: unset;
+  background-position: unset;
+  .container {
+    max-width: 1211px;
+    padding: 0;
+  }
+  .row {
+    height: fit-content;
+    padding: 0;
+    .logo {
+      text-align: left;
+      padding-top: 10px;
+      margin: 26px auto 26px 0px;
+    }
+    .mainmenu {
+      margin-top: 55px;
+    }
+  }
+}

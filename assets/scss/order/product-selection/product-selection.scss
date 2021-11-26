@@ -1,0 +1,28 @@
+.product-selection {
+  padding: 90px 0px 120px 0px;
+  text-align: center;
+  .container {
+    max-width: 640px;
+    h2 {
+      font-size: 45px;
+      color: #202120;
+      font-weight: 600;
+      margin-bottom: 70px;
+    }
+    ._product {
+      margin-bottom: 30px;
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+      input {
+        display: none;
+      }
+      label {
+        img {
+          cursor: pointer;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

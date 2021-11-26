@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="assets/scss/order/results/results.css" />
     <!-- order experience -->
     <link rel="stylesheet" href="assets/scss/order/experience/experience.css" />
+    <!-- order Product Selection -->
+    <link rel="stylesheet" href="assets/scss/order/product-selection/product-selection.css" />
 
     <style>
       ::-webkit-scrollbar {
@@ -319,6 +321,7 @@
       </div>
     </div>
 
+    <!-- experience -->
     <section class="experience">
       <div class="container">
         <div class="row">
@@ -329,6 +332,97 @@
         </div>
       </div>
     </section>
+
+    <!-- results to extream -->
+    <section class="results-to-extream">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Let’s Take Your Results To The <span>Extreme</span></h3>
+            <p>
+              What’s even better than getting a better sex life and a bigger penis? You can experience faster and more hard-hitting results with Elite
+              909’s ULTRA PREMIUM performance boosters! Elite 909 Red Label and Blue Label will let you experience results beyond your wildest dreams!
+              We refined Elite 909 to its limits, and we added our Red and Blue Label boosters to take your progress to the highest level.
+            </p>
+            <div class="row _red">
+              <div class="col-lg-5">
+                <img src="./assets/images/supplement-1.png" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  <span>Elite 909 Red</span> Labelis formulated to synergize seamlessly with the Elite 909 system, which magnifies the impact of
+                  testosterone boosters and vasodilators to give you the biggest and hardest erections you’ve ever had!
+                </p>
+              </div>
+            </div>
+            <div class="row _blue">
+              <div class="col-lg-6">
+                <p>
+                  <span>Elite 909 Red</span> Labelis formulated to synergize seamlessly with the Elite 909 system, which magnifies the impact of
+                  testosterone boosters and vasodilators to give you the biggest and hardest erections you’ve ever had!
+                </p>
+              </div>
+              <div class="col-lg-5">
+                <img src="./assets/images/supplement-2.png" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <img src="./assets/images/stats.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- best results -->
+    <div class="best-results-possible">
+      <div class="container">
+        <div class="content-image">
+          <div class="_content">
+            <h3>
+              The Best Results Are <br />
+              <span>Now Possible</span>
+            </h3>
+            <p>
+              Through years of research and development, we discov- ered that the true pathway for FAST and EFFECTIVE penis enlargement results is by
+              creating a full supplement system designed to maximize the size-boosting potential of every ingredient in the formula. By taking Elite
+              909 Blue and Red Label, you virtually ensure that you get the fastest and most impactful results possible. Why settle for anything less?
+              Elite 909 Blue and Red Label retails for $79.95 each, but with the Elite 909 system, you can get both supplements for only $60 –with a
+              total savings of $99.95 EVERY MONTH
+            </p>
+          </div>
+          <div class="_image">
+            <img src="./assets/images/best-results.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-selection">
+      <div class="container">
+        <h2><span>Select</span> An Option Below</h2>
+        <div class="_product">
+          <input type="radio" id="product-selected-1" name="select" value="3" />
+          <label for="product-selected-1">
+            <img src="./assets/images/product-1.png" alt="product" />
+          </label>
+        </div>
+        <div class="_product">
+          <input type="radio" id="product-selected-2" name="select" value="3" />
+          <label for="product-selected-2">
+            <img src="./assets/images/product-2.png" alt="product" />
+          </label>
+        </div>
+        <div class="_product">
+          <input type="radio" id="product-selected-3" name="select" value="3" />
+          <label for="product-selected-3">
+            <img src="./assets/images/product-3.png" alt="product" />
+          </label>
+        </div>
+      </div>
+    </div>
 
     <!--footer-section-->
     <footer class="footer-section">
@@ -373,5 +467,18 @@
     <script src="assets/js/slick.min.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      $("._product img").click(function () {
+        var src = $(this).attr("src");
+        if (src === "./assets/images/product-1.png") {
+          $(this).attr("src", "./assets/images/product-1-selected.png");
+        } else if (src === "./assets/images/product-2.png") {
+          $(this).attr("src", "./assets/images/product-2-selected.png");
+        } else if (src === "./assets/images/product-3.png") {
+          $(this).attr("src", "./assets/images/product-3-selected.png");
+        }
+      });
+    </script>
   </body>
 </html>

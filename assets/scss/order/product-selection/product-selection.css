@@ -1,0 +1,33 @@
+.product-selection {
+  padding: 90px 0px 120px 0px;
+  text-align: center;
+}
+
+.product-selection .container {
+  max-width: 640px;
+}
+
+.product-selection .container h2 {
+  font-size: 45px;
+  color: #202120;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.product-selection .container ._product {
+  margin-bottom: 30px;
+}
+
+.product-selection .container ._product:last-of-type {
+  margin-bottom: 0px;
+}
+
+.product-selection .container ._product input {
+  display: none;
+}
+
+.product-selection .container ._product label img {
+  cursor: pointer;
+  width: 100%;
+}
+/*# sourceMappingURL=product-selection.css.map */

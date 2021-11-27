@@ -1,9 +1,13 @@
+/*----------------------------------------*/
+/*  Product Selection
+/*----------------------------------------*/
 .product-selection {
   padding: 90px 0px 120px 0px;
   text-align: center;
 }
 
 .product-selection .container {
+  padding: 0;
   max-width: 640px;
 }
 
@@ -29,5 +33,24 @@
 .product-selection .container ._product label img {
   cursor: pointer;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .product-selection {
+    padding: 90px 0px 70px 0px;
+  }
+  .product-selection .container {
+    padding: 0px 25px;
+  }
+  .product-selection .container h2 {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+  .product-selection .container ._product {
+    margin-bottom: 15px;
+  }
+  .product-selection .container ._product:last-of-type {
+    margin-bottom: 0px;
+  }
 }
 /*# sourceMappingURL=product-selection.css.map */

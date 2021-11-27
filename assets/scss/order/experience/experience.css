@@ -1,5 +1,5 @@
 /*----------------------------------------*/
-/*  5.  Experience
+/*  Experience
 /*----------------------------------------*/
 .experience {
   background-image: url(../../../images/yellow-bg-2.png);
@@ -29,8 +29,36 @@
   color: #232323;
 }
 
+@media (max-width: 1340px) {
+  .experience .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 90px 0px 80px 0px;
+  }
+  .experience .container {
+    padding: 0 25px;
+  }
+  .experience .container p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .experience .container h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 414px) {
+  .experience {
+    background-image: url(../../../images/yellow-bg-2-mob.png);
+  }
+}
+
 /*----------------------------------------*/
-/*  5.  Results to Extream
+/*  Results to Extream
 /*----------------------------------------*/
 .results-to-extream {
   background-image: url(../../../images/extream-bg.png);
@@ -107,8 +135,117 @@
   color: #00bff1;
 }
 
+.results-to-extream .container .row .stats img {
+  width: 100%;
+}
+
+@media (max-width: 1340px) {
+  .results-to-extream .container {
+    padding: 0 25px;
+    max-width: 1211px;
+  }
+  .results-to-extream .container .row ._red .col-lg-5 {
+    text-align: center;
+  }
+  .results-to-extream .container .row ._red .col-lg-5 img {
+    width: 100%;
+    margin-right: 0;
+  }
+  .results-to-extream .container .row ._blue .col-lg-5 img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .results-to-extream .container .row ._blue p {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .results-to-extream {
+    padding: 85px 0px 80px 0px;
+  }
+  .results-to-extream .container .row .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .results-to-extream .container .row ._red {
+    padding: 35px 0px 0px;
+  }
+  .results-to-extream .container .row ._blue {
+    padding: 80px 0px 45px 0px;
+  }
+  .results-to-extream .container .row ._blue .col-lg-6 {
+    -webkit-box-ordinal-group: 13;
+        -ms-flex-order: 12;
+            order: 12;
+  }
+  .results-to-extream .container .row ._blue .col-lg-5 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .results-to-extream .container .row ._blue p {
+    text-align: left;
+  }
+  .results-to-extream .container .row ._blue p span {
+    color: #00bff1;
+  }
+  .results-to-extream .container .row .stats img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .results-to-extream {
+    padding: 85px 0px 80px 0px;
+  }
+  .results-to-extream .container .row h3 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .results-to-extream .container .row p {
+    font-size: 16px;
+    line-height: 1.333;
+  }
+  .results-to-extream .container .row .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .results-to-extream .container .row .row p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .results-to-extream .container .row ._red {
+    padding: 35px 0px 0px;
+  }
+  .results-to-extream .container .row ._blue {
+    padding: 80px 0px 45px 0px;
+  }
+  .results-to-extream .container .row ._blue .col-lg-6 {
+    -webkit-box-ordinal-group: 13;
+        -ms-flex-order: 12;
+            order: 12;
+  }
+  .results-to-extream .container .row ._blue .col-lg-5 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .results-to-extream .container .row ._blue p {
+    text-align: left;
+  }
+  .results-to-extream .container .row ._blue p span {
+    color: #00bff1;
+  }
+  .results-to-extream .container .row .stats img {
+    width: 100%;
+  }
+}
+
 /*----------------------------------------*/
-/*  5.  Best Results Possible
+/*  Best Results Possible
 /*----------------------------------------*/
 .best-results-possible {
   padding: 100px 0px 80px 0px;
@@ -154,5 +291,90 @@
 
 .best-results-possible .container .content-image ._image img {
   width: 599px;
+}
+
+@media (max-width: 1660px) {
+  .best-results-possible .container {
+    padding: 0px 25px;
+    max-width: 1211px;
+    left: 0px;
+  }
+  .best-results-possible .container .content-image ._content {
+    padding-right: 40px;
+    max-width: 50%;
+  }
+  .best-results-possible .container .content-image ._image {
+    max-width: 50%;
+  }
+  .best-results-possible .container .content-image ._image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1340px) {
+  .best-results-possible .container {
+    padding: 0px 25px;
+    max-width: 1211px;
+    left: 0px;
+  }
+  .best-results-possible .container .content-image ._content {
+    padding-right: 40px;
+    max-width: 50%;
+  }
+  .best-results-possible .container .content-image ._image {
+    max-width: 50%;
+  }
+  .best-results-possible .container .content-image ._image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .best-results-possible .container .content-image {
+    display: block;
+  }
+  .best-results-possible .container .content-image ._content {
+    padding-right: 0px;
+    margin-bottom: 100px;
+    max-width: 100%;
+  }
+  .best-results-possible .container .content-image ._image {
+    max-width: 100%;
+  }
+  .best-results-possible .container .content-image ._image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .best-results-possible {
+    padding: 75px 0px 65px 0px;
+  }
+  .best-results-possible .container .content-image {
+    display: block;
+  }
+  .best-results-possible .container .content-image ._content {
+    margin-bottom: 50px;
+    max-width: 100%;
+  }
+  .best-results-possible .container .content-image ._content h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .best-results-possible .container .content-image ._content h3 br {
+    display: none;
+  }
+  .best-results-possible .container .content-image ._content p {
+    font-size: 16px;
+    line-height: 1.333;
+    font-weight: 500;
+  }
+  .best-results-possible .container .content-image ._image {
+    max-width: 100%;
+  }
+  .best-results-possible .container .content-image ._image img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=experience.css.map */

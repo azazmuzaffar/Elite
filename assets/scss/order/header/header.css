@@ -2,9 +2,7 @@
 /*  1.  Header 
 /*----------------------------------------*/
 .header-area {
-  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #363636 0%, #050505 100%);
-  background-size: unset;
-  background-position: unset;
+  background-image: url(../../../images/header-bg.png);
 }
 
 .header-area .container {
@@ -27,5 +25,41 @@
 
 .header-area .row .mainmenu {
   margin-top: 55px;
+}
+
+.mobilem {
+  margin-top: 25px;
+}
+
+.mainmenu.in-mobile {
+  top: 56px;
+}
+
+@media (max-width: 1340px) {
+  .header-area .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-area .container {
+    padding: 0 25px;
+  }
+  .header-area .container .row .logo {
+    text-align: left;
+    padding: 11px 0px 1px 0px;
+    margin: 0px;
+  }
+  .header-area .container .row .logo img {
+    height: 34px;
+  }
+  .header-area .container .row .mainmenu {
+    margin-top: 0px;
+  }
+}
+
+/* Footer issueon MOB */
+.mainmenu.footer-menu nav ul li:last-of-type {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=header.css.map */

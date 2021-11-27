@@ -20,6 +20,9 @@
           font-style: italic;
           padding: 0;
           margin: 0;
+          br {
+            display: none;
+          }
         }
         h4 {
           font-size: 32px;
@@ -43,5 +46,59 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1340px) {
+  .order-elite {
+    background-position: center center;
+    .container {
+      padding: 0 25px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .order-elite {
+    .container {
+      padding: 0 25px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .order-elite {
+    background-image: url(../../../images/order-banner-bg-tabb.png);
+    padding: 387px 0px 60px 0px;
+    .container {
+      .row {
+        .elite-909-satisfaction {
+          margin-bottom: 50px;
+          h1 {
+            font-size: 56px;
+            line-height: 1em;
+            padding: 0;
+            margin: 0 0 10px 0px;
+            br {
+              display: block;
+            }
+          }
+          h4 {
+            font-size: 18px;
+          }
+        }
+        .elite-909-experience {
+          h3 {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .order-elite {
+    background-image: url(../../../images/order-banner-bg-mob.png);
   }
 }

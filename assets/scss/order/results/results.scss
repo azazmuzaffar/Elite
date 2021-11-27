@@ -1,7 +1,11 @@
+/*----------------------------------------*/
+/*  Best Results
+/*----------------------------------------*/
+
 .best-results {
+  padding: 125px 20px 115px 0px;
   .container {
     max-width: 1211px;
-    padding: 125px 20px 115px 0px;
     .intro {
       h3 {
         font-size: 45px;
@@ -35,6 +39,59 @@
       ._right {
         p {
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1340px) {
+  .best-results {
+    padding: 125px 0px 115px 0px;
+    .container {
+      padding: 0px 25px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .best-results {
+    padding: 80px 0px;
+    .container {
+      .row {
+        ._left {
+          max-width: 100%;
+        }
+        text-align: center;
+        ._center,
+        ._right {
+          max-width: 100%;
+          margin-top: 90px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .best-results {
+    padding: 65px 0px 65px 0px;
+    .container {
+      .intro {
+        h3 {
+          font-size: 34px;
+          margin-bottom: 23px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 1.333;
+          font-weight: 500;
+        }
+        margin-bottom: 50px;
+      }
+      .row {
+        p {
+          font-size: 24px;
         }
       }
     }

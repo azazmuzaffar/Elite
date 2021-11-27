@@ -1,12 +1,9 @@
 /*----------------------------------------*/
 /*  1.  Header 
 /*----------------------------------------*/
+
 .header-area {
-  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
-  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
-  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
-  background-size: unset;
-  background-position: unset;
+  background-image: url(../../../images/header-bg.png);
   .container {
     max-width: 1211px;
     padding: 0;
@@ -23,4 +20,45 @@
       margin-top: 55px;
     }
   }
+}
+
+.mobilem {
+  margin-top: 25px;
+}
+.mainmenu.in-mobile {
+  top: 56px;
+}
+
+@media (max-width: 1340px) {
+  .header-area {
+    .container {
+      padding: 0 25px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header-area {
+    .container {
+      padding: 0 25px;
+      .row {
+        .logo {
+          text-align: left;
+          padding: 11px 0px 1px 0px;
+          margin: 0px;
+          img {
+            height: 34px;
+          }
+        }
+        .mainmenu {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+
+/* Footer issueon MOB */
+.mainmenu.footer-menu nav ul li:last-of-type {
+  margin-right: 30px;
 }

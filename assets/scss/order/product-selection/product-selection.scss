@@ -1,7 +1,12 @@
+/*----------------------------------------*/
+/*  Product Selection
+/*----------------------------------------*/
+
 .product-selection {
   padding: 90px 0px 120px 0px;
   text-align: center;
   .container {
+    padding: 0;
     max-width: 640px;
     h2 {
       font-size: 45px;
@@ -21,6 +26,25 @@
         img {
           cursor: pointer;
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .product-selection {
+    padding: 90px 0px 70px 0px;
+    .container {
+      padding: 0px 25px;
+      h2 {
+        font-size: 34px;
+        margin-bottom: 35px;
+      }
+      ._product {
+        margin-bottom: 15px;
+        &:last-of-type {
+          margin-bottom: 0px;
         }
       }
     }

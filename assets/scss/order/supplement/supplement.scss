@@ -1,5 +1,5 @@
 /*----------------------------------------*/
-/*  1.  Elite 90 Supplement 
+/*  Elite 90 Supplement 
 /*----------------------------------------*/
 
 .what-elite-909-do {
@@ -16,6 +16,9 @@
       font-size: 45px;
       color: white;
       font-weight: 600;
+      .tech {
+        display: none;
+      }
     }
     .row {
       padding: 120px 0px;
@@ -63,6 +66,74 @@
                 right: 0;
                 top: -5px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1340px) {
+  .what-elite-909-do {
+    background-image: url(../../../images/elite-909-supplement-bg.png);
+    height: fit-content;
+    .container {
+      padding: 125px 25px 100px 25px;
+      .row {
+        .col-lg-6 {
+          &:last-child {
+            text-align: left;
+            ul {
+              margin-top: 0;
+              li {
+                padding: 0px 0px 0px 80px;
+                &::before {
+                  display: block;
+                }
+                &::after {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .what-elite-909-do {
+    .container {
+      .product-image {
+        margin-top: 75px;
+      }
+      .row {
+        padding: 70px 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .what-elite-909-do {
+    .container {
+      padding: 80px 25px 80px 25px;
+      h3 {
+        font-size: 34px;
+        .tech {
+          display: block;
+          display: unset;
+          color: white;
+        }
+      }
+      .row {
+        padding: 50px 0px 30px 0px;
+        .col-lg-6 {
+          ul {
+            li {
+              font-size: 21px;
             }
           }
         }

@@ -26,6 +26,10 @@
   margin: 0;
 }
 
+.order-elite .container .row .elite-909-satisfaction h1 br {
+  display: none;
+}
+
 .order-elite .container .row .elite-909-satisfaction h4 {
   font-size: 32px;
   color: #424242;
@@ -46,5 +50,51 @@
 
 .order-elite .container .row .elite-909-experience h3 span:first-of-type {
   color: #080808;
+}
+
+@media (max-width: 1340px) {
+  .order-elite {
+    background-position: center center;
+  }
+  .order-elite .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .order-elite .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .order-elite {
+    background-image: url(../../../images/order-banner-bg-tabb.png);
+    padding: 387px 0px 60px 0px;
+  }
+  .order-elite .container .row .elite-909-satisfaction {
+    margin-bottom: 50px;
+  }
+  .order-elite .container .row .elite-909-satisfaction h1 {
+    font-size: 56px;
+    line-height: 1em;
+    padding: 0;
+    margin: 0 0 10px 0px;
+  }
+  .order-elite .container .row .elite-909-satisfaction h1 br {
+    display: block;
+  }
+  .order-elite .container .row .elite-909-satisfaction h4 {
+    font-size: 18px;
+  }
+  .order-elite .container .row .elite-909-experience h3 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 414px) {
+  .order-elite {
+    background-image: url(../../../images/order-banner-bg-mob.png);
+  }
 }
 /*# sourceMappingURL=banner.css.map */

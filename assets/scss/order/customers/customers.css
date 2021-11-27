@@ -144,4 +144,93 @@
 .verified-customers .container .row .col-lg-6 .by h5 i {
   font-size: 24px;
 }
+
+@media (max-width: 1340px) {
+  .verified-customers .container {
+    padding: 0 25px;
+  }
+  .verified-customers .container ._intro h4 br {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .verified-customers {
+    padding: 100px 0px;
+  }
+  .verified-customers .container .row {
+    padding: 0px 10px;
+  }
+  .verified-customers .container .row .col-lg-6:nth-child(odd) {
+    padding: 0px;
+  }
+  .verified-customers .container .row .col-lg-6:nth-child(even) {
+    padding: 0px;
+  }
+  .verified-customers .container .row .col-lg-6 ._message {
+    padding: 25px 10px;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .verified-customers {
+    padding: 70px 0px 50px 0px;
+  }
+  .verified-customers .container ._intro h2 {
+    font-size: 34px;
+  }
+  .verified-customers .container ._intro h3 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 28px;
+  }
+  .verified-customers .container ._intro h4 {
+    text-align: left;
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+  .verified-customers .container .row .col-lg-6 {
+    margin-top: 60px;
+  }
+  .verified-customers .container .row .col-lg-6 ._message::after {
+    left: 50px;
+  }
+  .verified-customers .container .row .col-lg-6 ._message .size h3 {
+    font-size: 32px;
+  }
+  .verified-customers .container .row .col-lg-6 ._message .size p {
+    font-size: 18px;
+  }
+  .verified-customers .container .row .col-lg-6 ._message .comment p {
+    font-size: 16px;
+  }
+  .verified-customers .container .row .col-lg-6 .by {
+    margin-top: 42px;
+  }
+  .verified-customers .container .row .col-lg-6 .by h3 {
+    font-size: 26px;
+  }
+  .verified-customers .container .row .col-lg-6 .by p {
+    font-size: 16px;
+  }
+  .verified-customers .container .row .col-lg-6 .by p .location {
+    font-size: 16px;
+    color: #595959;
+  }
+  .verified-customers .container .row .col-lg-6 .by p .location i {
+    font-size: 20px;
+    padding-right: 7px;
+  }
+  .verified-customers .container .row .col-lg-6 .by h5 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .verified-customers .container .row .col-lg-6 .by h5 i {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=customers.css.map */

@@ -1,0 +1,162 @@
+/*----------------------------------------*/
+/* 3 What you Expect
+/*----------------------------------------*/
+
+.what-you-expect {
+  .container-fluid {
+    padding: 0;
+    .path-expectations {
+      display: flex;
+      .path {
+        padding: 0;
+        width: 45%;
+        .text {
+          max-width: 480px;
+          padding: 135px 0px 105px 0px;
+          margin-left: auto;
+          margin-right: 38px;
+          h2 {
+            font-size: 45px;
+            color: rgb(35, 35, 35);
+            font-weight: 600;
+          }
+          p {
+            margin-top: 35px;
+            font-size: 24px;
+            color: rgb(58, 58, 58);
+            line-height: 1.444;
+          }
+        }
+        .images {
+          background-image: url("../../../images/upsell/expectations.png");
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 602px;
+        }
+      }
+    }
+    .expectations {
+      padding: 130px 50px 0px 50px;
+      width: 55%;
+      background: radial-gradient(50% 50%, rgb(54, 54, 54) 0%, rgb(37, 37, 37) 100%);
+      color: white;
+      h5 {
+        font-size: 32px;
+        color: white;
+      }
+      ul {
+        max-width: fit-content;
+        margin: 35px 0px 15px 0px;
+        list-style: none;
+        padding: 0;
+        li {
+          margin: 15px 0px 12px 0px;
+          border-bottom: 2px dashed rgb(99, 99, 99);
+          p {
+            margin: 2px 0px 25px 0px;
+            font-size: 25.333px;
+            color: rgb(245, 245, 245);
+            font-style: italic;
+          }
+          &:last-of-type {
+            border-bottom: 0;
+            p {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Desktop  :1340px. */
+@media (max-width: 1340px) {
+  .what-you-expect {
+    .container-fluid {
+      .path-expectations {
+        .path {
+          .text {
+            max-width: 100%;
+            padding: 105px 25px 95px 25px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Desktop  :1200px. */
+@media (max-width: 1200px) {
+  .what-you-expect {
+    .container-fluid {
+      .path-expectations {
+        display: block;
+        .path {
+          width: 100%;
+          .text {
+            max-width: 100%;
+            padding: 105px 25px 95px 25px;
+            margin: 0;
+          }
+        }
+        .expectations {
+          width: 100%;
+          height: fit-content;
+          padding: 130px 50px 100px 50px;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .what-you-expect {
+    .container-fluid {
+      .path-expectations {
+        .path {
+          .text {
+            padding: 70px 25px 70px 25px;
+            h2 {
+              font-size: 34px;
+            }
+            p {
+              margin-top: 35px;
+              font-size: 16px;
+              color: rgb(58, 58, 58);
+              line-height: 1.444;
+            }
+          }
+        }
+        .expectations {
+          padding: 70px 25px 70px 25px;
+          h5 {
+            font-size: 34px;
+            br {
+              display: none;
+            }
+          }
+          ul {
+            li {
+              margin: 15px 0px 12px 0px;
+              border-bottom: 2px dashed rgb(99, 99, 99);
+              p {
+                font-size: 18px;
+              }
+              &:last-of-type {
+                border-bottom: 0;
+                p {
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

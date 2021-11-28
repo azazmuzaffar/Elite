@@ -1,0 +1,118 @@
+/*----------------------------------------*/
+/* 1 Limited Offer
+/*----------------------------------------*/
+
+.limited-offer {
+  padding: 90px 0px 115px 0px;
+  overflow: hidden;
+  .container {
+    max-width: 1211px;
+    text-align: center;
+    padding: 0;
+    h2 {
+      font-size: 60px;
+      color: rgb(35, 35, 35);
+    }
+    .order-completion {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: -12px 0px 30px 0px;
+      h3 {
+        font-size: 40px;
+        color: rgb(76, 76, 76);
+        margin: 30px 25px 0px 0px;
+      }
+      img {
+        width: 94px;
+      }
+    }
+    h1 {
+      font-size: 60px;
+      color: rgb(35, 35, 35);
+      line-height: 0.95em;
+      margin: 50px 0px 60px 0px;
+      span {
+        font-size: 40px;
+        color: rgb(51, 51, 51);
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+    a {
+      font-size: 40px;
+      color: white;
+      padding: 20px 100px;
+      background: linear-gradient(90deg, rgb(54, 54, 54) 0%, rgb(5, 5, 5) 100%);
+    }
+    p {
+      font-size: 32px;
+      color: rgb(255, 16, 16);
+      margin: 45px 0px 30px 0px;
+    }
+    h3 {
+      margin-top: 30px;
+      font-size: 40px;
+      color: rgb(35, 35, 35);
+      font-style: italic;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* Tablet  :991px. */
+@media (max-width: 991px) {
+  .limited-offer {
+    .container {
+      padding: 0 25px;
+      .order-completion {
+        display: block;
+        margin: 0px 0px 30px 0px;
+        img {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .limited-offer {
+    padding: 70px 0px;
+    .container {
+      h2 {
+        font-size: 34px;
+      }
+      .order-completion {
+        h3 {
+          font-size: 24px;
+          margin: 20px 25px 0px 0px;
+        }
+      }
+      h1 {
+        font-size: 34px;
+        margin: 30px 0px 40px 0px;
+        span {
+          font-size: 19px;
+        }
+      }
+      a {
+        display: block;
+        width: 100%;
+        font-size: 21px;
+        padding: 20px 0px;
+      }
+      p {
+        font-size: 16px;
+        margin: 10px 0px 30px 0px;
+      }
+      h3 {
+        margin-top: 30px;
+        font-size: 24px;
+      }
+    }
+  }
+}

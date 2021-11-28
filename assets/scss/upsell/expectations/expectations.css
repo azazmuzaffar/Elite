@@ -1,0 +1,157 @@
+/*----------------------------------------*/
+/* 3 What you Expect
+/*----------------------------------------*/
+.what-you-expect .container-fluid {
+  padding: 0;
+}
+
+.what-you-expect .container-fluid .path-expectations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.what-you-expect .container-fluid .path-expectations .path {
+  padding: 0;
+  width: 45%;
+}
+
+.what-you-expect .container-fluid .path-expectations .path .text {
+  max-width: 480px;
+  padding: 135px 0px 105px 0px;
+  margin-left: auto;
+  margin-right: 38px;
+}
+
+.what-you-expect .container-fluid .path-expectations .path .text h2 {
+  font-size: 45px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.what-you-expect .container-fluid .path-expectations .path .text p {
+  margin-top: 35px;
+  font-size: 24px;
+  color: #3a3a3a;
+  line-height: 1.444;
+}
+
+.what-you-expect .container-fluid .path-expectations .path .images {
+  background-image: url("../../../images/upsell/expectations.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 602px;
+}
+
+.what-you-expect .container-fluid .expectations {
+  padding: 130px 50px 0px 50px;
+  width: 55%;
+  background: radial-gradient(50% 50%, #363636 0%, #252525 100%);
+  color: white;
+}
+
+.what-you-expect .container-fluid .expectations h5 {
+  font-size: 32px;
+  color: white;
+}
+
+.what-you-expect .container-fluid .expectations ul {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 35px 0px 15px 0px;
+  list-style: none;
+  padding: 0;
+}
+
+.what-you-expect .container-fluid .expectations ul li {
+  margin: 15px 0px 12px 0px;
+  border-bottom: 2px dashed #636363;
+}
+
+.what-you-expect .container-fluid .expectations ul li p {
+  margin: 2px 0px 25px 0px;
+  font-size: 25.333px;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.what-you-expect .container-fluid .expectations ul li:last-of-type {
+  border-bottom: 0;
+}
+
+.what-you-expect .container-fluid .expectations ul li:last-of-type p {
+  margin-bottom: 0;
+}
+
+/* Desktop  :1340px. */
+@media (max-width: 1340px) {
+  .what-you-expect .container-fluid .path-expectations .path .text {
+    max-width: 100%;
+    padding: 105px 25px 95px 25px;
+    margin: 0;
+  }
+}
+
+/* Desktop  :1200px. */
+@media (max-width: 1200px) {
+  .what-you-expect .container-fluid .path-expectations {
+    display: block;
+  }
+  .what-you-expect .container-fluid .path-expectations .path {
+    width: 100%;
+  }
+  .what-you-expect .container-fluid .path-expectations .path .text {
+    max-width: 100%;
+    padding: 105px 25px 95px 25px;
+    margin: 0;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 130px 50px 100px 50px;
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .what-you-expect .container-fluid .path-expectations .path .text {
+    padding: 70px 25px 70px 25px;
+  }
+  .what-you-expect .container-fluid .path-expectations .path .text h2 {
+    font-size: 34px;
+  }
+  .what-you-expect .container-fluid .path-expectations .path .text p {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1.444;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations {
+    padding: 70px 25px 70px 25px;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations h5 {
+    font-size: 34px;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations h5 br {
+    display: none;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations ul li {
+    margin: 15px 0px 12px 0px;
+    border-bottom: 2px dashed #636363;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations ul li p {
+    font-size: 18px;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations ul li:last-of-type {
+    border-bottom: 0;
+  }
+  .what-you-expect .container-fluid .path-expectations .expectations ul li:last-of-type p {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=expectations.css.map */

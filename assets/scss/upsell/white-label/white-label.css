@@ -1,0 +1,100 @@
+/*----------------------------------------*/
+/* 2 & 5 White Label Supplement
+/*----------------------------------------*/
+.white-label-supplement {
+  background-image: url(../../../images/upsell/white-label-bg.png);
+  height: 1098px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0px 40px 0px;
+}
+
+.white-label-supplement .container {
+  padding: 0;
+  max-width: 1211px;
+  text-align: center;
+}
+
+.white-label-supplement .container .intro {
+  margin-bottom: 70px;
+}
+
+.white-label-supplement .container .intro p {
+  font-size: 32px;
+  color: #232323;
+  font-weight: 500;
+  margin: 0;
+}
+
+.white-label-supplement .container .intro h2 {
+  font-size: 60px;
+  color: #232323;
+}
+
+.white-label-supplement.make-order {
+  background-image: url(../../../images/upsell/white-label-bg-2.png);
+  padding: 115px 0px 88px 0px;
+  height: 1080px;
+}
+
+.white-label-supplement.make-order .container .intro {
+  margin-bottom: 35px;
+}
+
+.white-label-supplement.make-order .container .intro h2 {
+  font-size: 46.667px;
+  font-weight: 600;
+}
+
+/* Desktop  :1200px. */
+@media (max-width: 1200px) {
+  .white-label-supplement {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 100px 0px 80px 0px;
+  }
+  .white-label-supplement.make-order {
+    padding: 115px 0px 88px 0px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .white-label-supplement {
+    padding: 70px 0px;
+  }
+  .white-label-supplement .container {
+    padding: 0px 25px;
+  }
+  .white-label-supplement .container .intro {
+    margin-bottom: 70px;
+  }
+  .white-label-supplement .container .intro p {
+    font-size: 16px;
+  }
+  .white-label-supplement .container .intro h2 {
+    font-size: 34px;
+  }
+  .white-label-supplement.make-order {
+    background-image: url(../../../images/upsell/white-label-bg-2.png);
+    padding: 70px 0px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .white-label-supplement.make-order .container .intro {
+    margin-bottom: 70px;
+  }
+  .white-label-supplement.make-order .container .intro h2 {
+    font-size: 34.667px;
+  }
+  .white-label-supplement.make-order .container .intro h2 br {
+    display: none;
+  }
+}
+/*# sourceMappingURL=white-label.css.map */

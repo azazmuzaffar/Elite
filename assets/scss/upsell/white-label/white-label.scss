@@ -1,0 +1,91 @@
+/*----------------------------------------*/
+/* 2 & 5 White Label Supplement
+/*----------------------------------------*/
+
+.white-label-supplement {
+  background-image: url(../../../images/upsell/white-label-bg.png);
+  height: 1098px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0px 40px 0px;
+  .container {
+    padding: 0;
+    max-width: 1211px;
+    text-align: center;
+    .intro {
+      margin-bottom: 70px;
+      p {
+        font-size: 32px;
+        color: rgb(35, 35, 35);
+        font-weight: 500;
+        margin: 0;
+      }
+      h2 {
+        font-size: 60px;
+        color: rgb(35, 35, 35);
+      }
+    }
+  }
+  &.make-order {
+    background-image: url(../../../images/upsell/white-label-bg-2.png);
+    padding: 115px 0px 88px 0px;
+    height: 1080px;
+    .container {
+      .intro {
+        margin-bottom: 35px;
+        h2 {
+          font-size: 46.667px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+/* Desktop  :1200px. */
+@media (max-width: 1200px) {
+  .white-label-supplement {
+    height: fit-content;
+    padding: 100px 0px 80px 0px;
+    &.make-order {
+      padding: 115px 0px 88px 0px;
+      height: fit-content;
+    }
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .white-label-supplement {
+    padding: 70px 0px;
+    .container {
+      padding: 0px 25px;
+      .intro {
+        margin-bottom: 70px;
+        p {
+          font-size: 16px;
+        }
+        h2 {
+          font-size: 34px;
+        }
+      }
+    }
+    &.make-order {
+      background-image: url(../../../images/upsell/white-label-bg-2.png);
+      padding: 70px 0px;
+      height: fit-content;
+      .container {
+        .intro {
+          margin-bottom: 70px;
+          h2 {
+            font-size: 34.667px;
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

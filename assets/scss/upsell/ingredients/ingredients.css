@@ -1,0 +1,85 @@
+/*----------------------------------------*/
+/* 4 Key Ingredients
+/*----------------------------------------*/
+.key-ingredients {
+  padding: 145px 0px 112px 0px;
+  text-align: center;
+}
+
+.key-ingredients h2 {
+  font-size: 46.667px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.key-ingredients .container {
+  padding: 0;
+  max-width: 1211px;
+}
+
+.key-ingredients .container .row {
+  margin: 79px 0px;
+}
+
+.key-ingredients .container .row h4 {
+  font-size: 32px;
+  margin: 45px 0px 0px;
+  color: #232323;
+  font-weight: 500;
+}
+
+.key-ingredients .container .row h4.mobile {
+  display: none;
+}
+
+.key-ingredients .container .stats {
+  padding: 68px 0px 60px 0px;
+  background: radial-gradient(50% 50%, #777777 0%, #575656 100%);
+}
+
+/* Desktop  :1200px. */
+@media (max-width: 1200px) {
+  .key-ingredients {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+/* Tablet  :991px. */
+@media (max-width: 991px) {
+  .key-ingredients .container .row {
+    margin: 9px 0px 79px 0px;
+  }
+  .key-ingredients .container .row .col-md-6 {
+    margin-top: 70px;
+  }
+}
+
+/* Tablet  :767px. */
+@media (max-width: 767px) {
+  .key-ingredients {
+    padding: 70px 0px 0px;
+  }
+  .key-ingredients h2 {
+    font-size: 34px;
+  }
+  .key-ingredients .container .row {
+    margin: 9px 0px 79px 0px;
+  }
+  .key-ingredients .container .row .col-md-6 {
+    margin-top: 50px;
+  }
+  .key-ingredients .container .row img {
+    width: 180px;
+  }
+  .key-ingredients .container .row h4 {
+    font-size: 24px;
+    margin: 30px 0px 0px;
+  }
+  .key-ingredients .container .row h4.mobile {
+    display: block;
+  }
+  .key-ingredients .container .stats {
+    padding: 68px 25px 60px 25px;
+  }
+}
+/*# sourceMappingURL=ingredients.css.map */

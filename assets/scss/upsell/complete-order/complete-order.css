@@ -1,0 +1,126 @@
+/*----------------------------------------*/
+/* 6 Complete Order 
+/*----------------------------------------*/
+.complete-order {
+  padding: 90px 0px 115px 0px;
+}
+
+.complete-order .container {
+  padding: 0;
+  width: 1211px;
+  text-align: center;
+}
+
+.complete-order .container h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.complete-order .container h2 span {
+  color: #af221a;
+}
+
+.complete-order .container form {
+  margin: 60px 0px 50px 0px;
+}
+
+.complete-order .container form .form-group {
+  display: block;
+  margin-bottom: 15px;
+  padding: 28px 0px;
+  width: 100%;
+  border: 1px solid #acacac;
+}
+
+.complete-order .container form .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.complete-order .container form .form-group label {
+  position: relative;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 600;
+  color: #1b1b1b;
+}
+
+.complete-order .container form .form-group label span {
+  color: #d40b11;
+}
+
+.complete-order .container form .form-group label::before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  background: #39b54a;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.complete-order .container form .form-group input:checked + label:after {
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  color: white;
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 32px;
+  font-family: "Font Awesome 5 Free";
+}
+
+.complete-order .container form button {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 30px 0px 15px 0px;
+  cursor: pointer;
+}
+
+.complete-order .container form .error p {
+  margin-top: 0px;
+  font-size: 24px;
+  color: #212120;
+  font-style: italic;
+  line-height: 1.333;
+}
+
+.complete-order .container .confirmation h2 {
+  line-height: 1.2;
+}
+
+.complete-order .container .confirmation h2 span {
+  color: #1b1b1b;
+}
+
+.complete-order .container .confirmation h2 span span {
+  color: #af221a;
+}
+
+.complete-order .container .confirmation p {
+  font-size: 20.8px;
+  margin: 15px 0px 0px;
+  color: #2a2a2a;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (max-width: 1340px) {
+  .complete-order .container {
+    padding: 0px 25px;
+  }
+}
+/*# sourceMappingURL=complete-order.css.map */

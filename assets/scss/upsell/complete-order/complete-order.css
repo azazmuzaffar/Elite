@@ -118,9 +118,79 @@
   text-align: left;
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 1250px) {
+  .complete-order {
+    width: 100% !important;
+  }
   .complete-order .container {
     padding: 0px 25px;
+    width: 100% !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .complete-order .container h2 br {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .complete-order {
+    padding: 70px 0px;
+  }
+  .complete-order .container h2 {
+    font-size: 34px;
+    text-align: left;
+  }
+  .complete-order .container form {
+    margin: 40px 0px 40px 0px;
+  }
+  .complete-order .container form .form-group {
+    display: block;
+    margin-bottom: 15px;
+    padding: 28px 30px;
+    width: 100%;
+    border: 1px solid #acacac;
+  }
+  .complete-order .container form .form-group label {
+    font-size: 16px;
+    display: block;
+    line-height: 1.3em;
+    text-align: left;
+  }
+  .complete-order .container form .form-group label::before {
+    display: block;
+    margin-right: 35px;
+    margin-bottom: 20px;
+  }
+  .complete-order .container form .form-group input:checked + label:after {
+    top: 9px;
+    left: 2px;
+  }
+  .complete-order .container form button {
+    margin: 10px 0px 5px 0px;
+  }
+  .complete-order .container form .error p {
+    font-size: 12px;
+  }
+  .complete-order .container .confirmation h2 {
+    font-size: 34px;
+    text-align: left;
+  }
+  .complete-order .container .confirmation h2 br {
+    display: none;
+  }
+  .complete-order .container .confirmation p {
+    font-size: 16px;
+    margin: 15px 0px 0px;
+    color: #2a2a2a;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .complete-order .container .confirmation p br {
+    display: none;
   }
 }
 /*# sourceMappingURL=complete-order.css.map */

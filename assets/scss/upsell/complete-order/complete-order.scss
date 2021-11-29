@@ -106,10 +106,90 @@
   }
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 1250px) {
   .complete-order {
+    width: 100% !important;
     .container {
       padding: 0px 25px;
+      width: 100% !important;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .complete-order {
+    .container {
+      h2 {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .complete-order {
+    padding: 70px 0px;
+    .container {
+      h2 {
+        font-size: 34px;
+        text-align: left;
+      }
+      form {
+        margin: 40px 0px 40px 0px;
+        .form-group {
+          display: block;
+          margin-bottom: 15px;
+          padding: 28px 30px;
+          width: 100%;
+          border: 1px solid rgb(172, 172, 172);
+          label {
+            font-size: 16px;
+            display: block;
+            line-height: 1.3em;
+            text-align: left;
+            &::before {
+              display: block;
+              margin-right: 35px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .form-group input:checked + label:after {
+          top: 9px;
+          left: 2px;
+        }
+        button {
+          margin: 10px 0px 5px 0px;
+        }
+        .error {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+      .confirmation {
+        h2 {
+          font-size: 34px;
+          text-align: left;
+          br {
+            display: none;
+          }
+        }
+        p {
+          font-size: 16px;
+          margin: 15px 0px 0px;
+          color: rgb(42, 42, 42);
+          font-weight: 300;
+          line-height: 1.5;
+          text-align: left;
+          br {
+            display: none;
+          }
+        }
+      }
     }
   }
 }
